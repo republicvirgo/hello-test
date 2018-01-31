@@ -4,7 +4,7 @@
   "description": "",
   "main": "math.js",
   "scripts": {
-    "test": "mocha *.js"
+    "test": "mocha unit/*.js"
   },
   "author": "M Haidar Hanif <npm@mhaidarhanif.com> (https://mhaidarhanif.com)",
   "license": "MIT",
