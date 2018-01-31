@@ -34,4 +34,12 @@ describe("Math", function() {
       assert.strictEqual(math.substract(3, -3), 6)
     })
   })
+
+  describe("Division", function() {
+    it("x / y = x / y", function() {
+      expect(math.divide(1, 1)).to.equal(1)
+      expect(math.divide(4, 2)).to.equal(2)
+      expect(math.divide(6, 3)).to.equal(2)
+    })
+  })
 })
