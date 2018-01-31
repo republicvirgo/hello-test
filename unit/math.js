@@ -42,4 +42,12 @@ describe("Math", function() {
       expect(math.divide(6, 3)).to.equal(2)
     })
   })
+
+  describe("Multiplication", function() {
+    it("x * y = x * y", function() {
+      expect(math.multiply(1, 1)).to.equal(1)
+      expect(math.multiply(2, 2)).to.equal(4)
+      expect(math.multiply(3, 3)).to.equal(9)
+    })
+  })
 })
